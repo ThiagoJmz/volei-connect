@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vôlei connect</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="bola.png" type="image/png">
+</head>
+
+<body>
+
+<div class="container">
+
+  <div id="telaJogadores" class="tela"></div>
+  <div id="telaCadastro" class="tela"></div>
+  <div id="telaPerfil" class="tela"></div>
+  <div id="telaApp" class="tela"></div>
+
+</div>
+
+<div class="menu">
+  <button onclick="mostrarTela('telaJogadores'); ativarMenu(this)">
+    <img src="home.png">
+    <span>Início</span>
+  </button>
+
+  <button onclick="mostrarTela('telaApp')">
+    <img src="equipe.png">
+    <span>Equipes</span>
+  </button>
+
+  <button onclick="mostrarTela('telaCadastro')">
+    <img src="cadastro.png">
+    <span>Cadasto</span>
+  </button>
+</div>
+
+
+<script src="script.js"></script>
+</body>
